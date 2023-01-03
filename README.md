@@ -9,6 +9,10 @@ I use windows 10 operation system and jdk 1.8.
 
 ## Building
 
+
+protoc-gen-grpc-java-1.50.2-windows-x86_64.exe
+add path 
+
 ### ch2
 #### client
 > protoc --java_out=.\ch2\client\src\main\java --proto_path=.\ch2\client\src\main\resources\proto .\ch2\client\src\main\resources\proto\product_info.proto
