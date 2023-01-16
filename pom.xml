@@ -12,6 +12,7 @@
         <module>ch3</module>
         <module>ch5</module>
         <module>interceptors</module>
+        <module>ch6</module>
 
     </modules>
     <packaging>pom</packaging>
