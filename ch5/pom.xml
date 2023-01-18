@@ -18,7 +18,6 @@
         <module>error-handing</module>
         <module>interceptors</module>
         <module>keepalive</module>
-        <module>ch5-keepalive-client</module>
         <module>loadbalancing</module>
         <module>metadata</module>
         <module>multiplexing</module>

@@ -9,7 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ch6-basic-authentication-server</artifactId>
+    <artifactId>basc-authentication</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>ch6-basic-authentication-client</module>
+        <module>ch6-basic-authentication-server</module>
+    </modules>
 
 </project>
