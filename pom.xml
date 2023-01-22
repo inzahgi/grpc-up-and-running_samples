@@ -12,7 +12,6 @@
         <module>ch3</module>
         <module>ch5</module>
         <module>ch6</module>
-        <module>ch6-secure-channel-client</module>
 
     </modules>
     <packaging>pom</packaging>

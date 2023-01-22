@@ -27,4 +27,13 @@ add path
 
 
 
+### ch3
+#### order-service-client
+> protoc --java_out=.\ch3\client\src\main\java --proto_path=.\ch3\client\src\main\resources\proto .\ch3\client\src\main\resources\proto\order_management.proto
 
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch3\client\src\main\java\ --proto_path=.\ch3\client\src\main\resources\proto .\ch3\client\src\main\resources\proto\order_management.proto
+
+#### order-service-client
+> protoc --java_out=.\ch3\server\src\main\java --proto_path=.\ch3\server\src\main\resources\proto .\ch3\server\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch3\server\src\main\java\ --proto_path=.\ch3\server\src\main\resources\proto .\ch3\server\src\main\resources\proto\order_management.proto
