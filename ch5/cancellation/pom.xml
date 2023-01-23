@@ -12,8 +12,8 @@
     <artifactId>cancellation</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>ch5-client</module>
-        <module>ch5-server</module>
+        <module>ch5-cancellation-client</module>
+        <module>ch5-cancellation-server</module>
     </modules>
 
 
