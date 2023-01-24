@@ -3,6 +3,9 @@ package org.example;
 import com.google.protobuf.StringValue;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import org.example.proto.OrderManagementGrpc;
+import org.example.proto.OrderManagementOuterClass;
+
 import java.util.logging.Logger;
 
 public class OrderMgtClient {

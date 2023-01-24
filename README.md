@@ -51,3 +51,16 @@ cancellation
 > protoc --java_out=.\ch5\cancellation\ch5-cancellation-server\src\main\java --proto_path=.\ch5\cancellation\ch5-cancellation-server\src\main\resources\proto .\ch5\cancellation\ch5-cancellation-server\src\main\resources\proto\order_management.proto
 
 > protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\cancellation\ch5-cancellation-server\src\main\java\ --proto_path=.\ch5\cancellation\ch5-cancellation-server\src\main\resources\proto .\ch5\cancellation\ch5-cancellation-server\src\main\resources\proto\order_management.proto
+
+
+compression
+#### compression -> ch5-compression-client
+> protoc --java_out=.\ch5\compression\ch5-compression-client\src\main\java --proto_path=.\ch5\compression\ch5-compression-client\src\main\resources\proto .\ch5\compression\ch5-compression-client\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\compression\ch5-compression-client\src\main\java\ --proto_path=.\ch5\compression\ch5-compression-client\src\main\resources\proto .\ch5\compression\ch5-compression-client\src\main\resources\proto\order_management.proto
+
+##### compression -> ch5-compression-server
+> protoc --java_out=.\ch5\compression\ch5-compression-server\src\main\java --proto_path=.\ch5\compression\ch5-compression-server\src\main\resources\proto .\ch5\compression\ch5-compression-server\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\compression\ch5-compression-server\src\main\java\ --proto_path=.\ch5\compression\ch5-compression-server\src\main\resources\proto .\ch5\compression\ch5-compression-server\src\main\resources\proto\order_management.proto
+
