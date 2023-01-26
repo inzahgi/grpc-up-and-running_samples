@@ -2,6 +2,8 @@ package org.example;
 
 import com.google.protobuf.StringValue;
 import io.grpc.stub.StreamObserver;
+import org.example.proto.OrderManagementGrpc;
+import org.example.proto.OrderManagementOuterClass;
 
 import java.util.AbstractMap;
 import java.util.HashMap;

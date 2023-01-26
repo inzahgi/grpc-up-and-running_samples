@@ -64,3 +64,15 @@ compression
 
 > protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\compression\ch5-compression-server\src\main\java\ --proto_path=.\ch5\compression\ch5-compression-server\src\main\resources\proto .\ch5\compression\ch5-compression-server\src\main\resources\proto\order_management.proto
 
+
+deadlines
+#### deadlines -> ch5-deadlines-client
+> protoc --java_out=.\ch5\deadlines\ch5-deadlines-client\src\main\java --proto_path=.\ch5\deadlines\ch5-deadlines-client\src\main\resources\proto .\ch5\deadlines\ch5-deadlines-client\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\deadlines\ch5-deadlines-client\src\main\java\ --proto_path=.\ch5\deadlines\ch5-deadlines-client\src\main\resources\proto .\ch5\deadlines\ch5-deadlines-client\src\main\resources\proto\order_management.proto
+
+##### deadlines -> ch5-deadlines-server
+> protoc --java_out=.\ch5\deadlines\ch5-deadlines-server\src\main\java --proto_path=.\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto .\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\deadlines\ch5-deadlines-server\src\main\java\ --proto_path=.\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto .\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto\order_management.proto
+
