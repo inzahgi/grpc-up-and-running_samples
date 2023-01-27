@@ -76,3 +76,16 @@ deadlines
 
 > protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\deadlines\ch5-deadlines-server\src\main\java\ --proto_path=.\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto .\ch5\deadlines\ch5-deadlines-server\src\main\resources\proto\order_management.proto
 
+
+
+error-handing
+#### error-handing -> ch5-error-handing-client
+> protoc --java_out=.\ch5\error-handing\ch5-error-handing-client\src\main\java --proto_path=.\ch5\error-handing\ch5-error-handing-client\src\main\resources\proto .\ch5\error-handing\ch5-error-handing-client\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\error-handing\ch5-error-handing-client\src\main\java\ --proto_path=.\ch5\error-handing\ch5-error-handing-client\src\main\resources\proto .\ch5\error-handing\ch5-error-handing-client\src\main\resources\proto\order_management.proto
+
+##### error-handing -> ch5-error-handing-server
+> protoc --java_out=.\ch5\error-handing\ch5-error-handing-server\src\main\java --proto_path=.\ch5\error-handing\ch5-error-handing-server\src\main\resources\proto .\ch5\error-handing\ch5-error-handing-server\src\main\resources\proto\order_management.proto
+
+> protoc --plugin=protoc-gen-grpc-java=e:\proto\protoc-gen-grpc-java-1.50.2-windows-x86_64.exe --grpc-java_out=.\ch5\error-handing\ch5-error-handing-server\src\main\java\ --proto_path=.\ch5\error-handing\ch5-error-handing-server\src\main\resources\proto .\ch5\error-handing\ch5-error-handing-server\src\main\resources\proto\order_management.proto
+
